@@ -1,0 +1,51 @@
+topic,niche,topic_name,actionable,video_format
+100,AI Career,Becoming an AI engineer without a coding background,1,Roadmap
+101,AI Career,AI engineer roadmap for students and beginners,1,Roadmap
+102,AI Career,Moving from data or software roles into AI engineering,1,Explainer
+103,AI Career,"Data science, ML and data engineering career roadmaps",1,Roadmap
+104,AI Career,Students and career switchers in India: which path into tech,1,Explainer
+105,AI Career,Questions about the creator's setup and links,0,
+106,AI Career,Mixed remarks about earning money,0,
+107,AI Career,"Agentic coding workflows: specs, tickets and implementation",1,Explainer
+108,AI Career,Entry-level jobs in the AI job market: where are they?,1,Explainer
+109,AI Career,Agent skills and MCP: what they are and how to install them,1,Tutorial
+110,AI Career,Which AI course or certificate is worth it,1,Comparison
+111,AI Career,Using AI for job applications and interviews,1,Tutorial
+112,AI Career,"How to become an AI product manager (non-tech, MBA, freshers)",1,Roadmap
+113,AI Career,Single vs multi-agent setups and agent monitoring,1,Explainer
+114,AI Career,Claude vs Claude Code: plans and when to use which,1,Comparison
+200,AI Tools,Which ChatGPT plan unlocks which features,1,Explainer
+201,AI Tools,How to make videos like this with AI tools,0,Tutorial
+202,AI Tools,Advanced ChatGPT Work workflows for business tasks,1,Tutorial
+203,AI Tools,Best free AI tools to start with,1,Comparison
+204,AI Tools,"ChatGPT desktop app setup problems: missing options, lost chats",1,Tutorial
+205,AI Tools,"Mixed questions on costs, personal use and model comparisons",0,
+206,AI Tools,Missing links and downloads,0,
+207,AI Tools,Free AI video generators: which ones actually work,1,Comparison
+208,AI Tools,Is Grok bot still worth using?,1,Comparison
+209,AI Tools,"Hidden costs of free AI tools: credits, tokens and limits",1,Explainer
+210,AI Tools,Setting up AI for a small business: privacy and costs,1,Explainer
+211,AI Tools,Codex vs ChatGPT Work: what is the difference,1,Comparison
+212,AI Tools,Can I do the same with Claude? Claude Cowork and Claude Code,1,Comparison
+213,AI Tools,Hosting an AI-built website on your own domain,1,Tutorial
+214,AI Tools,Questions about the creator's own video and gear,0,
+215,AI Tools,Asking for the names of the tools shown,0,
+216,AI Tools,Data privacy when AI gets access to your accounts,1,Explainer
+217,AI Tools,Hardware needed to run AI tools locally,1,Explainer
+218,AI Tools,Mixed questions about skills and whether the presenter is AI,0,
+219,AI Tools,Hermes agent vs OpenClaw: setup and use cases,1,Tutorial
+300,AI Agents,What is an AI agent? Questions from beginners,1,Explainer
+301,AI Agents,Build your first AI agent from scratch,1,Tutorial
+302,AI Agents,"Is this just an API? Specs, OpenAPI and agent tooling",1,Explainer
+303,AI Agents,Mixed remarks on context engineering and agent safety,0,
+304,AI Agents,MCP vs API: what MCP actually adds,1,Explainer
+305,AI Agents,Mixed requests for other tech stack tutorials,0,
+306,AI Agents,General requests for more AI agent videos,0,
+307,AI Agents,Building agents with Claude: free vs Pro and which tool,1,Explainer
+308,AI Agents,Selling AI agents and automations to clients,1,Case study
+309,AI Agents,"Hidden API costs of running agents: tokens, credits, free tiers",1,Explainer
+310,AI Agents,Generic requests for a full tutorial or part 2,0,
+311,AI Agents,AI agent courses: prerequisites and what you can earn,1,Explainer
+312,AI Agents,Fixing MCP setup errors in Codex and VS Code,1,Tutorial
+313,AI Agents,Hermes agent with Obsidian: setup and memory,1,Tutorial
+314,AI Agents,Missing links and code,0,

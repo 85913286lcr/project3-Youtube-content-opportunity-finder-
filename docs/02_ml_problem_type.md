@@ -1,6 +1,6 @@
 # 2. Type of ML Problem
 
-Slides 1, 4, 8 and 10. The project has two machine-learning steps and a scoring step.
+Slides 1, 4, 8 and 11. The project has two machine-learning steps and a scoring step.
 
 | | Step 1: find questions | Step 2: group into topics | Step 3: score and pick |
 |---|---|---|---|

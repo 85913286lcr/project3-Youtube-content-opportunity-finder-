@@ -1,6 +1,6 @@
 # 10. Recommendation: Deploy or Not Deploy
 
-Slide 11.
+Slide 13.
 
 ## Recommendation
 **Deploy now as a decision aid. Roll out the ranking only if the A/B test wins.**

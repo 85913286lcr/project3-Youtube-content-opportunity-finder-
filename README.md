@@ -25,16 +25,16 @@ The write-up follows the 11 presentation points of the project brief:
 | # | Section | File | Slides |
 |---|---|---|---|
 | 1 | Problem statement | [docs/01_problem_statement.md](docs/01_problem_statement.md) | 1 |
-| 2 | Type of ML problem | [docs/02_ml_problem_type.md](docs/02_ml_problem_type.md) | 1, 4, 8, 10 |
+| 2 | Type of ML problem | [docs/02_ml_problem_type.md](docs/02_ml_problem_type.md) | 1, 4, 8, 11 |
 | 3 | Dataset | [docs/03_dataset.md](docs/03_dataset.md) | 2, 4 |
 | 4 | EDA findings | [docs/04_eda.md](docs/04_eda.md) | 3 |
 | 5 | Feature engineering | [docs/05_feature_engineering.md](docs/05_feature_engineering.md) | 2, 6 |
 | 6 | Models tried | [docs/06_models.md](docs/06_models.md) | 5, 6, 8, 9 |
 | 7 | Hyperparameter tuning | [docs/07_tuning.md](docs/07_tuning.md) | 6 |
-| 8 | Evaluation metrics | [docs/08_evaluation.md](docs/08_evaluation.md) | 5, 7, 9, 1 |
-| 9 | Opportunity sizing | [docs/09_opportunity_sizing.md](docs/09_opportunity_sizing.md) | 11 |
-| 10 | Recommendation: deploy or not | [docs/10_recommendation.md](docs/10_recommendation.md) | 11 |
-| 11 | Deployment plan | [docs/11_deployment_plan.md](docs/11_deployment_plan.md) | 11 |
+| 8 | Evaluation metrics | [docs/08_evaluation.md](docs/08_evaluation.md) | 5, 7, 10, 12, 1 |
+| 9 | Opportunity sizing | [docs/09_opportunity_sizing.md](docs/09_opportunity_sizing.md) | 13 |
+| 10 | Recommendation: deploy or not | [docs/10_recommendation.md](docs/10_recommendation.md) | 13 |
+| 11 | Deployment plan | [docs/11_deployment_plan.md](docs/11_deployment_plan.md) | 13 |
 
 ## Dataset description and how to obtain it
 
@@ -111,7 +111,7 @@ cd app && pip install -r requirements.txt && streamlit run app_public.py
 Content Opportunity Finder/
 ├── README.md                 you are here
 ├── docs/                     sections 1–11 of the project brief (01_… to 11_…)
-├── slides/                   final presentation (11 slides)
+├── slides/                   final presentation (13 slides, .pptx + .pdf)
 ├── app/                      public Streamlit dashboard + anonymised data snapshot
 ├── src/
 │   ├── config.py             niches, search words, paths, random seed

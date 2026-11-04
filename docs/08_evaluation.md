@@ -1,6 +1,6 @@
 # 8. Evaluation Metrics
 
-Slides 5, 7, 9 and 1.
+Slides 5, 7, 10, 12 and 1.
 
 ## Which metrics and why
 - **Only 21% are questions**, so **accuracy misleads**: a model that says "no" to everything is already 79% right but finds nothing.

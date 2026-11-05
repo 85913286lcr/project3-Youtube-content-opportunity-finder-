@@ -19,7 +19,7 @@ Gradient boosting was best by CV. But its 5 fold scores swing ±0.10, so the gap
 ## Step 2: group into topics (unsupervised)
 Four ways to group the **2,574 Jul–Sep questions**, compared by stability.
 
-**ARI (Adjusted Rand Index, L05):** run each method twice with different random seeds and compare the two groupings. 1 = same groups, 0 = random.
+**ARI (Adjusted Rand Index, L05):** run each method 5 times with different random seeds and compare every pair of runs (average ARI). 1 = identical groups, 0 = no better than random.
 
 | Method | AI Career | AI Tools | AI Agents |
 |---|---|---|---|
@@ -32,10 +32,20 @@ Grouping by meaning was the steadiest in all 3 content lines, so it is used.
 - By words, one AI Tools group mixed a paid course, GitHub links and a mountain biking accident.
 - By meaning, the matching group was all "Can I do the same with Claude?", which one video can answer.
 
-**K-Means per content line.** K is chosen so each topic is small enough for one video:
-- AI Career 912 questions → **15** topics;
-- AI Tools 684 → **20**;
-- AI Agents 978 → **15**;
-- **50 topics** in total.
+**K-Means per content line: choosing K** (slide 9).
+- K = how many topics each content line is cut into; each topic becomes one video idea.
+- K = 8, 10, 12, 15, 18, 20, 25 were tried.
+- **The data shows no natural K:** the elbow curve is a straight line (no bend), and silhouette is only 0.03–0.09.
+- So K is chosen with 2 rules (my choice):
+  1. **1 video can't cover too much:** the biggest topic holds at most 12% of the line's questions (about 2× an average topic; AI Career: at most 109 of 912);
+  2. **not too many:** 10–25 topics, so a creator can read the list.
+- Among the K that pass both rules, the highest silhouette wins (AI Career: 15 and 20 almost tie, 0.0438 vs 0.0437).
+
+| Content line | Questions | K |
+|---|---|---|
+| AI Career | 912 | **15** |
+| AI Tools | 684 | **20** |
+| AI Agents | 978 | **15** |
+| **Total** | 2,574 | **50 topics** |
 
 \* beyond the course
